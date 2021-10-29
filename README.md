@@ -6,7 +6,7 @@ A PyBridge extension to manipulate FileSystem locations on any platform
 
 ## Linux
 
-Use LightBridge to path directories on Linux.
+Use LightBridge to path directories on Linux
 
 ## Linux Directories
 
@@ -17,15 +17,17 @@ Use LightBridge to path directories on Linux.
 
 ## Example
 
-The code below show how to use LightBridge on Linux environments
+The code below shows how to use LightBridge on Linux environments
 
 ```
-import LighBridge
+import LightBridge
 from LightBridge import Linux
 
 print(Linux.Desktop)
 print(Linux.Documents)
+```
 
+```
 ### Output
 
 /home/YOUR_USER/Desktop/
@@ -36,7 +38,7 @@ print(Linux.Documents)
 
 ## Mac
 
-Use LightBridge to path directories on Mac.
+Use LightBridge to path directories on Mac
 
 ## Mac Directories
 
@@ -51,15 +53,17 @@ Use LightBridge to path directories on Mac.
 
 ## Example
 
-The code below show how to use LightBridge on Mac environments
+The code below shows how to use LightBridge on Mac environments
 
 ```
-import LighBridge
+import LightBridge
 from LightBridge import Mac
 
 print(Mac.Desktop)
 print(Mac.Documents)
+```
 
+```
 ### Output
 
 /Users/YOUR_USER/Desktop/
@@ -70,7 +74,7 @@ print(Mac.Documents)
 
 ## Windows
 
-Use LightBridge to path directories on Windows.
+Use LightBridge to path directories on Windows
 
 ## Windows Directories
 
@@ -85,15 +89,17 @@ Use LightBridge to path directories on Windows.
 
 ## Example
 
-The code below show how to use LightBridge on Windows environments
+The code below shows how to use LightBridge on Windows environments
 
 ```
-import LighBridge
+import LightBridge
 from LightBridge import Windows
 
 print(Windows.Desktop)
 print(Windows.Documents)
+```
 
+```
 ### Output
 
 [...]

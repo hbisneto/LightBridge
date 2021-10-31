@@ -102,5 +102,6 @@ print(Windows.Documents)
 ```
 ### Output
 
-[...]
+C:\Users\YOUR_USER/Desktop/
+C:\Users\YOUR_USER/Documents/
 ```

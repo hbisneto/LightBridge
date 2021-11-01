@@ -3,10 +3,12 @@
 
 import os
 
-## Special Directories
+## Current Directory
 CurrentPath = os.getcwd()
+## User directory
 User = f'/Users/{os.environ["USER"]}/'
 
+## Special Directories
 Applications = f'{User}Applications/'
 Desktop = f'{User}Desktop/'
 Documents = f'{User}Documents/'

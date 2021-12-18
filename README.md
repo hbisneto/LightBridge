@@ -158,3 +158,13 @@ Output:
 ```
 
 #
+
+# Update Logs
+
+- Improvements in `Android` environment FileSystem:
+	- Added `Alarms` path to FileSystem;
+	- Added `DCIM` path to FileSystem;
+	- Added `Music` path to FileSystem;
+	- Added `Notifications` path to FileSystem;
+	- Added `Podcasts` path to FileSystem;
+	- Added `Ringtones` path to FileSystem;

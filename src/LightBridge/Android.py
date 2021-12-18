@@ -8,11 +8,32 @@ CurrentPath = os.getcwd()
 
 ## Access your internal storage
 def InternalStorage():
-    InternalStorage.Home = '/storage/emulated/0/'
-    InternalStorage.Android = '/storage/emulated/0/Android/'
-    InternalStorage.Documents = '/storage/emulated/0/Documents/'
-    InternalStorage.Downloads = '/storage/emulated/0/Download/'
-    InternalStorage.Movies = '/storage/emulated/0/Movies/'
-    InternalStorage.Pictures = '/storage/emulated/0/Pictures/'
+    InternalStorage.Home = '/storage/emulated/0'
+    ## Alarms
+    InternalStorage.Alarms = f'{InternalStorage.Home}/Alarms/'
+    ## Android
+    InternalStorage.Android = f'{InternalStorage.Home}/Android/'
+    ## DCIM
+    InternalStorage.DCIM = f'{InternalStorage.Home}/DCIM/'
+    ## Documents
+    InternalStorage.Documents = f'{InternalStorage.Home}/Documents/'
+    ## Download
+    InternalStorage.Downloads = f'{InternalStorage.Home}/Download/'
+    ## Movies
+    InternalStorage.Movies = f'{InternalStorage.Home}/Movies/'
+    ## Music
+    InternalStorage.Music = f'{InternalStorage.Home}/Music/'
+    ## Notifications
+    InternalStorage.Notifications = f'{InternalStorage.Home}/Notifications/'
+    ## Pictures
+    InternalStorage.Pictures = f'{InternalStorage.Home}/Pictures/'
+    ## Podcasts
+    InternalStorage.Podcasts = f'{InternalStorage.Home}/Podcasts/'
+    ## Ringtones
+    InternalStorage.Ringtones = f'{InternalStorage.Home}/Ringtones/'
     
 InternalStorage()
+
+def ExternalStorage():
+    print("DELETE THIS PRINT LINE")
+    

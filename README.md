@@ -125,10 +125,17 @@ Use LightBridge to path directories on Android
 #### Internal Storage Access
 
 - Home
+- Alarms
+- DCIM
 - Documents
 - Downloads
 - Movies
+- Music
+- Notifications
 - Pictures
+- Podcasts
+- Ringtones
+
 
 ### Example
 

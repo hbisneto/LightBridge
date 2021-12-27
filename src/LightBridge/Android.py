@@ -8,6 +8,7 @@ CurrentPath = os.getcwd()
 
 ## Access your internal storage
 def InternalStorage():
+    ## Home location on Android
     InternalStorage.Home = '/storage/emulated/0'
     ## Alarms
     InternalStorage.Alarms = f'{InternalStorage.Home}/Alarms/'
@@ -35,5 +36,6 @@ def InternalStorage():
 InternalStorage()
 
 def ExternalStorage():
-    print("DELETE THIS PRINT LINE")
+    print(">> This method is not callable yet")
+    print(">> Future update...")
     

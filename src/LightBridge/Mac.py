@@ -5,6 +5,7 @@ import os
 
 ## Current Directory
 CurrentPath = os.getcwd()
+
 ## User directory
 User = f'/Users/{os.environ["USER"]}/'
 

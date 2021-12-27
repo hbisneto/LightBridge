@@ -4,6 +4,14 @@ A PyBridge extension to manipulate FileSystem locations on any platform
 
 #
 
+## Installation
+
+```
+pip install LightBridge-hbisneto
+```
+
+#
+
 ## Linux
 
 Use LightBridge to path directories on Linux
@@ -27,9 +35,9 @@ print(Linux.Desktop)
 print(Linux.Documents)
 ```
 
-```
-### Output
+Output:
 
+```
 /home/YOUR_USER/Desktop/
 /home/YOUR_USER/Documents/
 ```
@@ -63,9 +71,9 @@ print(Mac.Desktop)
 print(Mac.Documents)
 ```
 
-```
-### Output
+Output:
 
+```
 /Users/YOUR_USER/Desktop/
 /Users/YOUR_USER/Documents/
 ```
@@ -99,9 +107,9 @@ print(Windows.Desktop)
 print(Windows.Documents)
 ```
 
-```
-### Output
+Output:
 
+```
 C:\Users\YOUR_USER/Desktop/
 C:\Users\YOUR_USER/Documents/
 ```
@@ -117,10 +125,17 @@ Use LightBridge to path directories on Android
 #### Internal Storage Access
 
 - Home
+- Alarms
+- DCIM
 - Documents
 - Downloads
 - Movies
+- Music
+- Notifications
 - Pictures
+- Podcasts
+- Ringtones
+
 
 ### Example
 
@@ -138,9 +153,9 @@ print(Android.InternalStorage.Movies)
 print(Android.InternalStorage.Pictures)
 ```
 
-```
-### Output
+Output:
 
+```
 /storage/emulated/0/PYTHON_APP_FOR_ANDROID
 /storage/emulated/0/
 /storage/emulated/0/Documents/
@@ -150,3 +165,5 @@ print(Android.InternalStorage.Pictures)
 ```
 
 #
+
+Copyright © 2021-2022 Heitor Bisneto. All rights reserved.

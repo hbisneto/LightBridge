@@ -166,12 +166,4 @@ Output:
 
 #
 
-# Update Logs
-
-- Improvements in `Android` environment FileSystem:
-	- Added `Alarms` path to FileSystem;
-	- Added `DCIM` path to FileSystem;
-	- Added `Music` path to FileSystem;
-	- Added `Notifications` path to FileSystem;
-	- Added `Podcasts` path to FileSystem;
-	- Added `Ringtones` path to FileSystem;
+Copyright © 2021-2022 Heitor Bisneto. All rights reserved.
